@@ -41,10 +41,11 @@ cursor: pointer;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 80vh;
 }
 .clock{
   position: relative;
+  width: 200px;
+  height: 200px;
 }
 
 .needle{
@@ -62,7 +63,7 @@ cursor: pointer;
 }
 
 .needle.minute {
-  transform: rotate(0deg);
+  transform:  rotate(0deg);
   height: 100px;
   background-color: #56a039;
 }
